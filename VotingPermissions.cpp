@@ -17,7 +17,7 @@ int main(){
     cout << "Do you have a valid citizenship?\nPlease enter with\nYes(Y) or No(N)\n";
     cin >> Citizenship;
 
-    // Citizenship Bool changer.
+    // If statements for permissions to vote
     if ((Citizenship == "Yes" || Citizenship == "Y" || Citizenship == "y") && Age > 18 || Age == 18 ) {
 
         cout << "You are allowed to vote!\n";
